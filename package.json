@@ -1,6 +1,6 @@
 {
   "name": "keyboard-controls",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Update the position and rotation of the current player camera based on keyboard keys pressed up or down.",
   "main": "index.js",
   "engines": {
@@ -23,7 +23,10 @@
   "license": "GPL-3.0",
 
   "homepage": "https://github.com/degencoco/keyboard-controls.git",
-  "dependencies": {},
+  "dependencies": {
+    "extend": "^2.0.0",
+    "fs-extra": "^0.14.0"
+  },
   "devDependencies": {
     "ajv": "^6.5.4",
     "babel-eslint": "^10.0.1",
